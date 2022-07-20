@@ -6,16 +6,6 @@ import org.apache.spark.ml.linalg.SparseVector
 import org.apache.spark.sql.SparkSession
 import org.jblas.DoubleMatrix
 
-/**
-  * Copyright (c) 2018-2028 尚硅谷 All Rights Reserved 
-  *
-  * Project: ECommerceRecommendSystem
-  * Package: com.atguigu.content
-  * Version: 1.0
-  *
-  * Created by wushengran on 2019/4/29 9:08
-  */
-
 case class Product( productId: Int, name: String, imageUrl: String, categories: String, tags: String )
 case class MongoConfig( uri: String, db: String )
 
