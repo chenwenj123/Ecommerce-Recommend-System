@@ -6,15 +6,6 @@ import java.util.Date
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
-/**
-  * Copyright (c) 2018-2028 尚硅谷 All Rights Reserved 
-  *
-  * Project: ECommerceRecommendSystem
-  * Package: com.atguigu.statistics
-  * Version: 1.0
-  *
-  * Created by wushengran on 2019/4/27 8:53
-  */
 case class Rating( userId: Int, productId: Int, score: Double, timestamp: Int )
 case class MongoConfig( uri: String, db: String )
 
