@@ -5,16 +5,6 @@ import org.apache.spark.mllib.recommendation.{ALS, Rating}
 import org.apache.spark.sql.SparkSession
 import org.jblas.DoubleMatrix
 
-/**
-  * Copyright (c) 2018-2028 尚硅谷 All Rights Reserved 
-  *
-  * Project: ECommerceRecommendSystem
-  * Package: com.atguigu.offline
-  * Version: 1.0
-  *
-  * Created by wushengran on 2019/4/27 10:19
-  */
-
 case class ProductRating( userId: Int, productId: Int, score: Double, timestamp: Int )
 case class MongoConfig( uri: String, db: String )
 
