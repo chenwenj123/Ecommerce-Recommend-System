@@ -6,16 +6,6 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 /**
-  * Copyright (c) 2018-2028 尚硅谷 All Rights Reserved 
-  *
-  * Project: ECommerceRecommendSystem
-  * Package: com.atguigu.recommender
-  * Version: 1.0
-  *
-  * Created by wushengran on 2019/4/26 15:43
-  */
-
-/**
   * Product数据集
   * 3982                            商品ID
   * Fuhlen 富勒 M8眩光舞者时尚节能    商品名称
